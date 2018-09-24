@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_cafe"
+        android:title="cafe"
+        android:enabled="true"
+        android:icon="@drawable/ic_local_cafe_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_atm"
+        android:title="ATM"
+        android:enabled="true"
+        android:icon="@drawable/ic_local_atm_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_restaurant"
+        android:title="Restaurant"
+        android:enabled="true"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/action_bank"
+        android:title="Bank"
+        android:enabled="true"
+        android:icon="@drawable/ic_bank_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_hospital"
+        android:title="Hospital"
+        android:enabled="true"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+</menu>

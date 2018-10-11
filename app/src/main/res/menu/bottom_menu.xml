@@ -2,6 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+
+    <item
+        android:id="@+id/action_police_station"
+        android:title="Police station"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_police"
+        app:showAsAction="ifRoom"
+        />
+
     <item
         android:id="@+id/action_cafe"
         android:title="cafe"
